@@ -13,7 +13,7 @@ export default class GuessingGame extends React.Component {
     }
 
     getRandomInt(max) {
-        return Math.floor(Math.random() * Math.ceil(max));
+        return Math.floor(Math.random() * Math.ceil(max)) + 1;
     }
 
     guessChanged(event) {
